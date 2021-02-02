@@ -1,22 +1,24 @@
 ﻿body {
 	font-size: 11pt;
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	margin: 0px;
 	padding: 0px;
 	background-image: url(bg.png);
+	font-family: Verdana;
 	color: black;
 }
 
 p{
-	
+	text-align:justify;
 }
 
 hr {
-	size: 60%;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 h1, h2 {
-	color: #347235;
+	color:#347235;
 }
 
 h2 {
@@ -24,12 +26,13 @@ h2 {
 }
 
 #tartalom {
-	background-color: #ffff;
-	border-style: none;
-	margin: 10 auto 10 auto;
-	padding: 20px;
+	margin: 0 auto 0 auto;
 	text-align: left;
-	width: 850px;	
+	width: 850px;
+	margin: 0 auto 0 auto;
+	padding: 0px 10px;
+	text-align: left;
+	background-color: #ffffff;
 }
 
 #nev{
@@ -39,13 +42,13 @@ h2 {
 
 
 .kep {
-	padding: 1px;
+	float:right;
+	border:1px solid;
 	margin-left: 5px;
-	width: 40%;
-	float: right;
 }
 
-a:link, a:hover, a:active, a:checked {
-	color: #008080;
-}
+a:link {color:#008080;}      
+a:visited {color:#008080;}  
+a:hover {color:#008080;}  
+a:active {color:#008080;} 
 
